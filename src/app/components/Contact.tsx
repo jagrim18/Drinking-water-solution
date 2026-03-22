@@ -3,15 +3,13 @@ import { Phone, MapPin, Mail, Instagram, Facebook, MessageCircle, Navigation } f
 
 export function Contact() {
   const businessInfo = {
-    name: 'AquaPure Water Solutions',
-    owner: 'Rajesh Kumar',
-    phone: '+91 98765 43210',
+    name: 'Rk drinking Water Solutions',
+    owner: 'Sushil Jain',
+    phone: '+91 97841 35757',
     email: 'contact@aquapure.com',
-    address: '123 Water Street, Clean City, State - 123456',
-    whatsapp: '+919876543210',
-    instagram: 'aquapure_water',
-    facebook: 'aquapurewater',
-    coordinates: '28.6139,77.2090', // Replace with actual coordinates
+    address: 'In front of Tehsil, Talera(Bundi)',
+    whatsapp: '+919784135757',
+    coordinates: '25.310971, 75.735470', // Replace with actual coordinates
   };
 
   const getDirectionsUrl = () => {
@@ -145,7 +143,7 @@ export function Contact() {
                       <MessageCircle className="w-6 h-6 text-white" />
                     </motion.a>
 
-                    <motion.a
+                    {/* <motion.a
                       href={`https://instagram.com/${businessInfo.instagram}`}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -165,7 +163,7 @@ export function Contact() {
                       whileTap={{ scale: 0.9 }}
                     >
                       <Facebook className="w-6 h-6 text-white" />
-                    </motion.a>
+                    </motion.a> */}
                   </div>
                 </div>
               </div>

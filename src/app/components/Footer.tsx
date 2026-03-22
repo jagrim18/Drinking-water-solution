@@ -16,7 +16,7 @@ export function Footer() {
               <div className="w-10 h-10 bg-gradient-to-br from-blue-400 to-cyan-400 rounded-xl flex items-center justify-center">
                 <Droplets className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold">AquaPure</span>
+              <span className="text-xl font-bold">RK Drinking</span>
             </div>
             <p className="text-blue-200 text-sm">
               Delivering pure, healthy water to your doorstep. Your trusted partner for premium RO water supply.
@@ -74,7 +74,7 @@ export function Footer() {
             Made with <Heart className="w-4 h-4 text-red-400 fill-current" /> for healthy living
           </motion.p>
           <p className="text-xs text-blue-300 mt-2">
-            © 2026 AquaPure Water Solutions. All rights reserved.
+            © 2026 RK Drinking Water Solutions. All rights reserved.
           </p>
         </div>
       </div>
